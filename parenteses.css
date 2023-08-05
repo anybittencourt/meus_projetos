@@ -1,0 +1,9 @@
+body{
+    background-color: #ffb3d5;
+}
+.parenteses{
+    display: flex;
+    width: 78vw;
+    align-items: center;
+
+}

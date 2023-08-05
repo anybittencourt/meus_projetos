@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Public+Sans:wght@100&display=swap');
+*{
+    margin: 4;
+    padding: 0;
+}
+body{
+    background-color: #ffb3d5;
+}
+.voltar{
+    display: flex;
+    text-decoration: none;
+    color: #681f3c;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    color: #c01763;
+    text-align: center;
+    text-shadow: #afa3a3 2px 3px 2px;
+}
+.topicos1{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.topicos{
+    color: #c01763;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: Arial, sans-serif;
+}
+.projetos{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.projetos2{
+    display: flex;
+    justify-content: space-around; 
+    
+}
+.projetos_todo{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.sites_html{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #c01763;
+    width: 31vw;
+}
+.sites a{
+    transition: 0.5s;
+}
+.sites:hover{
+    transform: scale(1.1); 
+}
+.sites{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    background-color: #c01763;
+    border-radius: 10px;
+    box-shadow: #afa3a3 2px 3px 2px;
+    margin-top: 20px;
+    width: 30vw;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+.descrição{
+    font-family: 'Poppins', sans-serif; ;
+    color: white;
+}
